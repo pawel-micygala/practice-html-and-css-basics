@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>devmentor.pl - HTML & CSS BASICS - #01</title>
 </head>
+
 <body>
-    
+    <header>
+        <div>
+            <h1>
+                <a href="#">LOGO</a>
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                    <ul>
+                        <li>
+                            <a href="#">Doors</a>
+                        </li>
+                        <li>
+                            <a href="#">Windows</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nam harum saepe enim fuga eum quisquam eaque blanditiis quia itaque,
+                sunt maxime rerum amet optio non, voluptas mollitia maiores facere,
+                deleniti beatae dolor architecto ea corporis alias tempore. Veritatis, amet alias!
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Exterior doors</th>
+                        <th>Interior doors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>KMT</td>
+                        <td>Porta</td>
+                    </tr>
+                    <tr>
+                        <td>Setto</td>
+                        <td>Pol-skone</td>
+                    </tr>
+                    <tr>
+                        <td>KR Center</td>
+                        <td>DRE</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img src="./img/img-01.jpg" alt="door" width="70%" height="400">
+            <div>
+                <span>
+                    Paweł Micygała | 1.03.2022
+                </span>
+            </div>
+        </article>
+        <form action="" method="POST">
+            <div>
+                <textarea name="comment" cols="30" rows="10" placeholder="Leave your comment here" required></textarea>
+            </div>
+            <div>
+                <input type="text" name="name" placeholder="Type your name" required>
+                <input type="submit" value="Send">
+            </div>
+        </form>
+        <section>
+            <h3>Comments:</h3>
+            <div>
+                <h4>Mike</h4>
+                <p>Lorem ipsum dolor sit amet consectetur,o,iatur eos sequi rerum.</p>
+                <div>01.03.2022</div>
+            </div>
+            <div>
+                <h4>Luke</h4>
+                <p>Lorem ipsum dolor sit amet consectetur,o,iatur eos sequi rerum. Sunt, obcaecati</p>
+                <div>22.03.2022</div>
+            </div>
+            <div>
+                <h4>Andrew</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, obcaecati?</p>
+                <div>21.04.2022</div>
+            </div>
+        </section>
+        <footer>
+            <p>© 2022 Paweł Micygała. All rights reserved.</p>
+        </footer>
+    </main>
 </body>
+
 </html>
